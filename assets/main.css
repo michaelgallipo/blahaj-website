@@ -9,6 +9,7 @@ title {
 header {
 	display: block;
 	margin-bottom: 30px;
+	width: 100vw;
 }
 
 .row {
@@ -27,12 +28,12 @@ header {
 }
 
 .topnavbar {
-	float: left;
+	/* float: left; */
 	color: #f2f2f2;
 	text-align: right;
 	text-decoration: none;
 	font-size: 26px;
-	width: 40em;
+	/* width: 40em; */
 	/* margin-bottom: 30px; */
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -64,11 +65,11 @@ header {
 	background-color: #fff;
 	line-height: 150px;
 	height: 150px;
-	width: 100vw;
+	width: 88vw;
 	/* text-align: center; */
 }
 
-#landingTitle {
+.landingTitles {
 	color: #fff;
 	text-align: center;
 }
@@ -84,4 +85,31 @@ header {
 	color: #fff;
 	font-size: 20px;
 	padding-left: 15em;
+}
+
+#whoweare {
+	color: #fff;
+	font-size: 26px;
+	line-height: 1.75;
+	padding-left: 15px;
+	margin-top: 0px;
+}
+
+.leaderboard {
+	width: 100vw;
+	height: 1325px;
+	scroll-behavior: none;
+	/* overflow: hidden;
+	margin: auto; */
+}
+
+.links {
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.links:hover {
+	color: teal;
 }
