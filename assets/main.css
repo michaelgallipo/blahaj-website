@@ -53,6 +53,7 @@ header {
 
 .banner {
 	display: inline-flex;
+	text-align: center;
 }
 
 .BGTitle {
@@ -63,11 +64,24 @@ header {
 	background-color: #fff;
 	line-height: 150px;
 	height: 150px;
-	width: 24em;
-	text-align: center;
+	width: 100vw;
+	/* text-align: center; */
 }
 
 #landingTitle {
 	color: #fff;
 	text-align: center;
+}
+
+.pageTitle {
+	font-size: 30px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+}
+
+.videos {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 15em;
 }
